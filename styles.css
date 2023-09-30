@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('') center/cover no-repeat; /* Replace 'your-background-image.jpg' with your image file */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 30px; /* Increase padding for a larger task box */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 20px; /* Increase padding for a larger input box */
+    margin-right: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 24px; /* Increase padding for larger buttons */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0; /* Increase margin for more space between tasks */
+    padding: 16px; /* Increase padding for a larger task box */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: #f0f0f0;
+}
